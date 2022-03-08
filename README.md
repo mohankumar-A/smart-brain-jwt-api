@@ -10,3 +10,7 @@ Final project for ZTM course
 You can grab Clarifai API key [here](https://www.clarifai.com/)
 
 ** Make sure you use postgreSQL instead of mySQL for this code base.
+
+## volumes:
+
+docker volume create --driver local --opt type=none --opt device=/d/Internal/MyWorkSpace/docker/smart-brain-api --opt o=bind web_data
